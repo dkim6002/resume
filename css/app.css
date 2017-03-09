@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Wallpoet');
+     
 
 video#bgvid { 
     position: fixed;
@@ -24,7 +25,7 @@ video#bgvid {
     width: 20em;
     height: 20em;
     position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
     margin: -70px 0 0 -170px;
 }
@@ -38,3 +39,29 @@ video#bgvid {
   font-family: 'Wallpoet', cursive;
   font-size: 10em;
 }
+
+.top-bar {
+  background-color: #ffffff;
+}
+
+.section-two {
+  max-width: 100%;
+  position: relative;
+  top: 900px;
+  padding: 50px;
+  font-size: 50px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.section-three {
+  max-width: 100%;
+  position: relative;
+  top: 900px;
+  padding: 50px;
+  font-size: 50px;
+  background-color: #55676A;
+  color: #ffffff;
+}
+
+
