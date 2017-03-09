@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Wallpoet');
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+
+}
+
+#logo-container {
+    border-style: solid;
+    border-width: 1em;
+    color: #ffffff;
+    width: 20em;
+    height: 20em;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+    margin: -70px 0 0 -170px;
+}
+
+#logo-initials h2{
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Wallpoet', cursive;
+  font-size: 10em;
+}
