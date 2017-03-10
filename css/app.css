@@ -49,19 +49,38 @@ video#bgvid {
   position: relative;
   top: 900px;
   padding: 50px;
-  font-size: 50px;
-  background-color: #000000;
-  color: #ffffff;
+  font-size: 25px;
+  background-color: #ffffff;
+  color: #000000;
+  opacity: .8
+}
+
+.section-two span:first-child { 
+  color: purple;
+  font-weight: bold;
+}
+
+.section-two span:last-child { 
+  color: orange;
+  font-weight: bold;
+}
+
+.section-two ul {
+  text-align: center;
+  list-style: none;
+}
+
+.section-two p:last-child {
+  /*text-align*/
 }
 
 .section-three {
   max-width: 100%;
   position: relative;
   top: 900px;
-  padding: 50px;
   font-size: 50px;
   background-color: #55676A;
   color: #ffffff;
 }
 
-
+/
